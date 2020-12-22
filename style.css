@@ -1,0 +1,10 @@
+.song-list {
+    display: block;
+}
+
+.song-listItem {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
