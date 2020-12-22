@@ -11,9 +11,9 @@
     <div id="app">
         <h1>{{ title }}</h1>
         <p>Total votes: {{votes}}</p>
-        <div class="song-list">
-            <song v-for="song in songs" :name="song.name" :singer="song.singer" :link="song.link" @add-like="addVotes"></song>
-        </div>
+        <new-song @add-new-song="addSong"></new-song>
+        <song v-for="song in songs" :name="song.name" :singer="song.singer" :link="song.link" @add-like="addVotes"></song>
+    </div>
     </div>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>

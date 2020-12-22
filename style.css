@@ -2,9 +2,13 @@
     display: block;
 }
 
-.song-listItem {
+.song-wrapper {
     display: block;
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
+}
+
+.song-formInput {
+    padding-bottom: 10px;
 }
